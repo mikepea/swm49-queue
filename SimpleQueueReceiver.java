@@ -10,6 +10,7 @@ public class SimpleQueueReceiver {
     QueueConnectionFactory  queueConnectionFactory = null;
     QueueConnection         queueConnection = null;
     QueueSession            queueSession = null;
+    QueueReceiver           queueReceiver = null;
     Queue                   queue = null;
     QueueSender             queueSender = null;
     TextMessage             message = null;
